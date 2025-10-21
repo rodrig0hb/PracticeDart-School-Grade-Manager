@@ -141,8 +141,7 @@ void menu(Map<String, List<double>> alunos) {
       menu(alunos);
       break;
     case '4':
-      // Reiniciar notas de aluno functionality to be implemented
-      print('Funcionalidade de reiniciar notas ainda não implementada.');
+      reiniciarNotas(alunos);
       menu(alunos);
       break;
     case '5':
